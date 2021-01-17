@@ -1,5 +1,6 @@
 {
     "values": [
-        "sea:main/tick"
+        "sea:main/tick",
+        "sea:main/end"
     ]
 }

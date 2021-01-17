@@ -1,0 +1,1 @@
+scoreboard players set @a sea.apple_eat 0
