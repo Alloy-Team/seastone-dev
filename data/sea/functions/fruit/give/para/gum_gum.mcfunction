@@ -1,0 +1,1 @@
+give @s apple{Sea:{DevilFruit:1b,Fruit:{Para:{GumGum:1b}}},CustomModelData:110101,display:{Name:'{"text":"Devil Fruit","color":"light_purple","italic":"false"}'}}
