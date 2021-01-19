@@ -1,6 +1,6 @@
 execute at @a if score @p ac_entity_id = @s sea.oid run tag @p add sea.fistowner
 
-execute facing entity @a[tag=sea.fistowner] feet positioned ^ ^ ^0.5 run function sea:fruit/system/para/gumgum/pistol/ray
+execute if entity @a[tag=sea.fistowner,distance=3..] facing entity @a[tag=sea.fistowner] feet positioned ^ ^ ^0.5 run function sea:fruit/system/para/gumgum/pistol/ray
 
 execute if entity @s[tag=!sea.fistrev] rotated as @a[tag=sea.fistowner] positioned as @s unless block ~ ~ ~ water run tp @s ^ ^ ^1 ~ ~
 execute if entity @s[tag=!sea.fistrev] rotated as @a[tag=sea.fistowner] positioned as @s if block ~ ~ ~ water run tp @s ^ ^ ^0.25 ~ ~
