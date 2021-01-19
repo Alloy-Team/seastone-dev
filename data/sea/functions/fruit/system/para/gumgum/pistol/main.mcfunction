@@ -2,11 +2,13 @@ execute at @a if score @p ac_entity_id = @s sea.oid run tag @p add sea.fistowner
 
 execute facing entity @a[tag=sea.fistowner] feet positioned ^ ^ ^0.5 run function sea:fruit/system/para/gumgum/pistol/ray
 
-execute if entity @s[tag=!sea.fistrev] rotated as @a[tag=sea.fistowner] positioned as @s run tp @s ^ ^ ^1 ~ ~
-execute if entity @s[tag=sea.fistrev] facing entity @a[tag=sea.fistowner] feet rotated ~ ~-20 positioned as @s run tp @s ^ ^ ^1.5
+execute if entity @s[tag=!sea.fistrev] rotated as @a[tag=sea.fistowner] positioned as @s unless block ~ ~ ~ water run tp @s ^ ^ ^1 ~ ~
+execute if entity @s[tag=!sea.fistrev] rotated as @a[tag=sea.fistowner] positioned as @s if block ~ ~ ~ water run tp @s ^ ^ ^0.25 ~ ~
+execute if entity @s[tag=sea.fistrev] facing entity @a[tag=sea.fistowner] feet rotated ~ ~-20 positioned as @s unless block ~ ~ ~ water run tp @s ^ ^ ^1.5
+execute if entity @s[tag=sea.fistrev] facing entity @a[tag=sea.fistowner] feet rotated ~ ~-20 positioned as @s if block ~ ~ ~ water run tp @s ^ ^ ^0.5
 
-execute if entity @a[distance=15..,tag=sea.fistowner] rotated as @a[tag=sea.fistowner] positioned as @s run playsound minecraft:item.crossbow.quick_charge_3 ambient @a[distance=..20] ~ ~ ~ 2 1.5
-execute if entity @a[distance=15..,tag=sea.fistowner] rotated as @a[tag=sea.fistowner] positioned as @s run tag @s[tag=!sea.fistrev] add sea.fistrev
+execute if entity @a[distance=25..,tag=sea.fistowner] rotated as @a[tag=sea.fistowner] positioned as @s run playsound minecraft:item.crossbow.quick_charge_3 ambient @a[distance=..20] ~ ~ ~ 2 1.5
+execute if entity @a[distance=25..,tag=sea.fistowner] rotated as @a[tag=sea.fistowner] positioned as @s run tag @s[tag=!sea.fistrev] add sea.fistrev
 
 
 execute if entity @s[tag=sea.fistrev] if entity @a[tag=sea.fistowner,dx=0] run playsound minecraft:item.crossbow.shoot ambient @a[distance=..10] ~ ~ ~ 1 1.85
