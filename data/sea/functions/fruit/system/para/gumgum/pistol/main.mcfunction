@@ -1,6 +1,7 @@
 execute at @a if score @p ac_entity_id = @s sea.oid run tag @p add sea.fistowner
+tag @s add sea.fistowned
 
-execute if entity @a[tag=sea.fistowner,distance=3..] facing entity @a[tag=sea.fistowner] feet positioned ^ ^ ^0.5 run function sea:fruit/system/para/gumgum/pistol/ray
+execute as @a[tag=sea.fistowner,distance=3..] at @s positioned ~ ~1 ~ facing entity @e[tag=sea.fistowned] feet run function sea:fruit/system/para/gumgum/pistol/ray
 
 execute if entity @s[tag=!sea.fistrev] rotated as @a[tag=sea.fistowner] positioned as @s unless block ~ ~ ~ water run tp @s ^ ^ ^1 ~ ~
 execute if entity @s[tag=!sea.fistrev] rotated as @a[tag=sea.fistowner] positioned as @s if block ~ ~ ~ water run tp @s ^ ^ ^0.25 ~ ~
@@ -22,6 +23,6 @@ execute if entity @s[tag=!sea.fistrev] if entity @e[type=!#alloycore:nonliving,d
 execute if entity @s[tag=!sea.fistrev] if entity @e[type=!#alloycore:nonliving,dx=0,tag=!sea.fistowner] run tag @s add sea.fistrev
 
 
-
+tag @s remove sea.fistowned
 tag @a remove sea.fistowner
 execute at @s if entity @s[nbt=!{ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:110301}}]}] run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:110301}}]}
