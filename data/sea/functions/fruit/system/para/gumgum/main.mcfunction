@@ -1,6 +1,15 @@
 scoreboard players add @s sea.pf.g.ela 0
 scoreboard players remove @s[scores={sea.pf.g.ela=1..}] sea.pf.g.ela 1
 
+# Rocket
+execute at @e[tag=sea.fruit.para.gum.launcher,type=armor_stand] if score @e[tag=sea.fruit.para.gum.launcher,sort=nearest,limit=1] sea.oid = @s ac_entity_id run tag @e[tag=sea.fruit.para.gum.launcher,sort=nearest,limit=1] add sea.rocketconfirm
+
+execute at @e[tag=sea.rocketconfirm,distance=0.01..] run tp @s ~ ~ ~
+execute if entity @e[tag=sea.rocketconfirm,distance=0.01..] run effect give @s slow_falling 1 1 true
+
+tag @e[tag=sea.fruit.para.gum.launcher] remove sea.rocketconfirm
+
+
 
 # Quick Elastic Charge
 execute if predicate alloycore:player/sprint run function sea:fruit/system/para/gumgum/charge/quick

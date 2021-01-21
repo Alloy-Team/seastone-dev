@@ -24,6 +24,7 @@ execute as @a[tag=sea.fruit.user] at @s run function sea:fruit/system/base/main
 
 # > Paramecia
 # Gum Gum
+execute as @e[tag=sea.fruit.para.gum.launcher] at @s run function sea:fruit/system/para/gumgum/rocket/main
 execute as @e[tag=sea.fruit.para.gum.fist] at @s run function sea:fruit/system/para/gumgum/pistol/main
 execute as @e[tag=sea.fruit.para.gum.rfist] at @s run function sea:fruit/system/para/gumgum/rifle/main
 execute as @a[tag=sea.fruit.user,tag=sea.fruit.para.gum.user] at @s run function sea:fruit/system/para/gumgum/main
