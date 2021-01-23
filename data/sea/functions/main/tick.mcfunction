@@ -28,3 +28,11 @@ execute as @e[tag=sea.fruit.para.gum.launcher] at @s run function sea:fruit/syst
 execute as @e[tag=sea.fruit.para.gum.fist] at @s run function sea:fruit/system/para/gumgum/pistol/main
 execute as @e[tag=sea.fruit.para.gum.rfist] at @s run function sea:fruit/system/para/gumgum/rifle/main
 execute as @a[tag=sea.fruit.user,tag=sea.fruit.para.gum.user] at @s run function sea:fruit/system/para/gumgum/main
+
+
+
+
+# >>> Weapons
+
+# > Mainhand Sword
+execute as @a[scores={ac_click_cs=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Sea:{shusui:1b}}}}] at @s run say it works pog
