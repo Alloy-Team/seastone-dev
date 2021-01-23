@@ -35,4 +35,4 @@ execute as @a[tag=sea.fruit.user,tag=sea.fruit.para.gum.user] at @s run function
 # >>> Weapons
 
 # > Mainhand Sword
-execute as @a[scores={ac_click_cs=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Sea:{shusui:1b}}}}] at @s run say it works pog
+execute as @a[scores={ac_click_cs=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Sea:{shusui:1b}}}}] at @s run function sea:weapon/system/sword/shusui/summon
