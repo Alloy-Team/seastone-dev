@@ -6,6 +6,12 @@ execute as @s[nbt={SelectedItem:{id:"minecraft:apple",tag:{Sea:{DevilFruit:1b,Fr
 # > Offheld
 execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:apple",tag:{Sea:{DevilFruit:1b,Fruit:{Para:{GumGum:1b}}}}}]}] run scoreboard players set @s sea.heldfruit 11
 
+# >> Spring Spring
+# > Held
+execute as @s[nbt={SelectedItem:{id:"minecraft:apple",tag:{Sea:{DevilFruit:1b,Fruit:{Para:{SpringSpring:1b}}}}}}] run scoreboard players set @s sea.heldfruit 12
+# > Offheld
+execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:apple",tag:{Sea:{DevilFruit:1b,Fruit:{Para:{SpringSpring:1b}}}}}]}] run scoreboard players set @s sea.heldfruit 12
+
 
 # >>> Zoan
 

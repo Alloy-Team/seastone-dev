@@ -9,6 +9,8 @@ execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:apple",tag:{Sea:{DevilFr
 # > Para
 # Gum
 execute as @a[scores={sea.apple_eat=1..,sea.heldfruit=11}] at @s run function sea:fruit/eat/para/gum_gum
+# Spring
+execute as @a[scores={sea.apple_eat=1..,sea.heldfruit=12}] at @s run function sea:fruit/eat/para/spring_spring
 
 # > Zoan
 # Human
