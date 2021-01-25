@@ -15,3 +15,5 @@ scoreboard objectives add sea.sword.guard dummy
 # > Para Fruits
 # Gum Gum Scores
 scoreboard objectives add sea.pf.g.ela dummy
+# Spring Spring Scores
+scoreboard objectives add sea.pf.s.rec dummy
