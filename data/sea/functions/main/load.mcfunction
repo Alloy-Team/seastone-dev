@@ -4,10 +4,8 @@ forceload add 0 0 0 0
 
 # >> Score creations
 # > Misc Scores
-scoreboard objectives add sea.apple_eat minecraft.used:minecraft.apple
 scoreboard objectives add sea.sink_id dummy
 scoreboard objectives add sea.oid dummy
-scoreboard objectives add sea.heldfruit dummy
 
 # > Swords
 scoreboard objectives add sea.sw.g.cd dummy

@@ -1,0 +1,1 @@
+execute if entity @s[gamemode=!creative] run function sea:fruit/remove
