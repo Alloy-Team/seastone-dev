@@ -12,4 +12,4 @@ execute at @e[tag=sea.launchconfirm,distance=0.01..] run tp @s ~ ~ ~
 execute if entity @e[tag=sea.launchconfirm,distance=0.01..] run effect give @s slow_falling 1 1 true
 execute if entity @e[tag=sea.launchconfirm,distance=0.01..] run effect give @s strength 1 0 true
 
-tag @e[tag=sea.fruit.para.gum.launcher] remove sea.launchconfirm
+tag @e[tag=sea.fruit.para.spring.launcher] remove sea.launchconfirm

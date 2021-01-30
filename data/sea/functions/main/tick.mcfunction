@@ -40,6 +40,5 @@ execute as @a[tag=sea.fruit.user,tag=sea.fruit.para.spring.user] at @s run funct
 # >>> Weapons
 
 # >> Mainhand Sword
-# > Shusui
-execute as @a[scores={ac_click_cs=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Sea:{shusui:1b}}}}] at @s run function sea:weapon/system/sword/shusui/summon
-execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{Sea:{shusui:1b}}}]}] if predicate alloycore:player/sneak at @s run scoreboard players set @s sea.sword.guard 2
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Sea:{Sword:1b}}}}] at @s run function sea:weapon/system/sword/base/main
+execute as @a[nbt=!{Inventory:[{Slot:103b}]},nbt={Inventory:[{Slot:9b,id:"minecraft:carrot_on_a_stick",tag:{Sea:{Sword:1b}}}]}] at @s run function sea:weapon/system/sword/base/head/run

@@ -8,8 +8,10 @@ scoreboard objectives add sea.apple_eat minecraft.used:minecraft.apple
 scoreboard objectives add sea.sink_id dummy
 scoreboard objectives add sea.oid dummy
 scoreboard objectives add sea.heldfruit dummy
-scoreboard objectives add sea.sword.guard dummy
 
+# > Swords
+scoreboard objectives add sea.sw.g.cd dummy
+scoreboard objectives add sea.sw.g.tm dummy
 
 
 # > Para Fruits
