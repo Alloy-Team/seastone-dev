@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:apple",
+          "nbt": "{Sea:{DevilFruit:1b,Fruit:{Zoan:{HumanHuman:1b}}}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sea:fruit/eat/zoan/human_human"
+  }
+}
