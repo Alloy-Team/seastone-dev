@@ -6,6 +6,8 @@ forceload add 0 0 0 0
 # > Misc Scores
 scoreboard objectives add sea.sink_id dummy
 scoreboard objectives add sea.oid dummy
+scoreboard objectives add sea.bow_used minecraft.used:minecraft.bow
+scoreboard objectives add sea.fell minecraft.custom:minecraft.fall_one_cm
 
 # > Swords
 scoreboard objectives add sea.sw.g.cd dummy
@@ -17,3 +19,8 @@ scoreboard objectives add sea.sw.g.tm dummy
 scoreboard objectives add sea.pf.g.ela dummy
 # Spring Spring Scores
 scoreboard objectives add sea.pf.s.rec dummy
+
+# > Logia Fruits
+# Rumble Rumble Scores
+scoreboard objectives add sea.lf.r.smt dummy
+scoreboard objectives add sea.lf.r.smc dummy
