@@ -8,6 +8,7 @@ scoreboard objectives add sea.sink_id dummy
 scoreboard objectives add sea.oid dummy
 scoreboard objectives add sea.bow_used minecraft.used:minecraft.bow
 scoreboard objectives add sea.fell minecraft.custom:minecraft.fall_one_cm
+scoreboard objectives add sea.w.tm dummy
 
 # > Swords
 scoreboard objectives add sea.sw.g.cd dummy
