@@ -8,3 +8,4 @@ execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{Sea:{Sword:1b}}}]}] run sc
 
 execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{Sea:{Sword:1b}}}]}] run scoreboard players add @s sea.sw.g.tm 5
 execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{Sea:{Sword:1b}}}]}] run scoreboard players remove @s sea.sw.g.cd 10
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{Sea:{Sword:1b}}}]}] run effect give @s strength 1 0
