@@ -26,4 +26,4 @@ execute as @e[tag=sea.ultrasmite] at @s run function sea:fruit/system/logia/rumb
 
 # >> Mainhand Sword
 execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Sea:{Sword:1b}}}}] at @s run function sea:weapon/system/sword/base/main
-execute as @a[nbt=!{Inventory:[{Slot:103b}]},nbt={Inventory:[{Slot:9b,id:"minecraft:carrot_on_a_stick",tag:{Sea:{Sword:1b}}}]}] at @s run function sea:weapon/system/sword/base/head/run
+execute as @a[nbt=!{Inventory:[{Slot:103b}]},nbt={Inventory:[{Slot:9b,tag:{Sea:{Sword:1b}}}]}] at @s run function sea:weapon/system/sword/base/head/run

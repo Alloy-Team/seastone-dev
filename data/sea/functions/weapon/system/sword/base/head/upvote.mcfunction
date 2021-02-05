@@ -1,0 +1,1 @@
+replaceitem entity @s armor.head wooden_sword{Sea:{Sword:1b},_aml:{id:"upvote_sword"},CustomModelData:310101,Unbreakable:1b,display:{Name:'{"text":"Upvote Sword","italic":"false"}'}}
