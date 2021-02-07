@@ -8,8 +8,7 @@ execute unless entity @s[dx=0] if entity @s[nbt={SelectedItem:{tag:{Sea:{Seaston
 execute unless score $sea.raytime ac_temp matches 40.. positioned ^ ^ ^0.1 unless entity @s[tag=sea.rayhit] run function sea:fruit/system/logia/rumblerumble/faced
 scoreboard players reset $sea.raytime ac_temp
 
-execute if entity @s[tag=sea.facing.rumble] run attribute @s minecraft:generic.attack_damage modifier add c6ecc63c-2b69-47d3-8237-833a88f0c702 rumble_facing -10000 add
-execute if entity @s[tag=!sea.facing.rumble] run attribute @s minecraft:generic.attack_damage modifier remove c6ecc63c-2b69-47d3-8237-833a88f0c702
+execute if entity @s[tag=sea.facing.rumble] run effect give @s weakness 1 255 true
 
 tag @s remove sea.rayhit
 tag @s remove sea.facing.rumble
