@@ -3,7 +3,7 @@ scoreboard players add @s sea.lf.r.smc 0
 
 
 # Nonhaki Immunity
-execute as @e[distance=0.1..5] at @s positioned ~ ~1 ~ positioned ^ ^ ^0.2 run function sea:fruit/system/logia/rumblerumble/faced
+execute as @e[distance=0.1..6] at @s positioned ~ ~1 ~ positioned ^ ^ ^0.2 run function sea:fruit/system/logia/rumblerumble/faced
 
 # Arrow Phase
 execute if score @s sea.bow_used matches 1.. run scoreboard players operation @e[distance=..2,sort=nearest,limit=1,type=arrow] sea.oid = @s ac_entity_id

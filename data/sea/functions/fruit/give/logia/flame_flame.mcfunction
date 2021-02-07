@@ -1,0 +1,1 @@
+give @s apple{Sea:{DevilFruit:1b,Fruit:{Logia:{FlameFlame:1b}}},CustomModelData:110304,display:{Name:'{"text":"Devil Fruit","color":"light_purple","italic":"false"}'}}

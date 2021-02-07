@@ -18,6 +18,8 @@ execute as @a[tag=sea.fruit.user,tag=sea.fruit.para.spring.user] at @s run funct
 # Rumble Rumble
 execute as @a[tag=sea.fruit.user,tag=sea.fruit.logia.rumble.user] at @s run function sea:fruit/system/logia/rumblerumble/main
 execute as @e[tag=sea.ultrasmite] at @s run function sea:fruit/system/logia/rumblerumble/smiter
+# Flame Flame
+execute as @a[tag=sea.fruit.user,tag=sea.fruit.logia.flame.user] at @s run function sea:fruit/system/logia/flameflame/main
 
 
 
