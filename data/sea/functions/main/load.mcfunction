@@ -13,6 +13,7 @@ scoreboard objectives add sea.w.tm dummy
 # > Swords
 scoreboard objectives add sea.sw.g.cd dummy
 scoreboard objectives add sea.sw.g.tm dummy
+scoreboard objectives add sea.sw.c dummy
 
 
 # > Para Fruits
