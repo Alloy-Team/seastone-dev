@@ -10,6 +10,7 @@ tag @s remove sea.fruit.para.ton.user
 tag @s remove sea.fruit.para.kilo.user
 tag @s remove sea.fruit.para.string.user
 tag @s remove sea.fruit.para.chop.user
+tag @s remove sea.fruit.para.dice.user
 
 # Zoan Tags
 tag @s remove sea.fruit.zoan.human.user

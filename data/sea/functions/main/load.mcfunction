@@ -21,6 +21,10 @@ scoreboard objectives add sea.sw.c dummy
 scoreboard objectives add sea.pf.g.ela dummy
 # Spring Spring Scores
 scoreboard objectives add sea.pf.s.rec dummy
+# Dice Dice Scores
+scoreboard objectives add sea.pf.d.cd dummy
+# Slip Slip Scores
+scoreboard objectives add sea.pf.sl.cd dummy
 
 # > Logia Fruits
 # Rumble Rumble Scores

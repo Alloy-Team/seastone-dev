@@ -1,1 +1,1 @@
-give @s apple{Sea:{DevilFruit:1b,Fruit:{Para:{SpringSpring:1b}}},CustomModelData:110105,display:{Name:'{"text":"Devil Fruit","color":"light_purple","italic":"false"}'}}
+give @s apple{Sea:{DevilFruit:1b,Fruit:{Para:{SpringSpring:1b}}},CustomModelData:110104,display:{Name:'{"text":"Devil Fruit","color":"light_purple","italic":"false"}'}}

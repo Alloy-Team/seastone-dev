@@ -18,5 +18,8 @@ execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{Sea:{Sword:1b,SwordType:{Ka
 # Seastone Katana
 execute if entity @s[nbt={SelectedItem:{tag:{Sea:{Sword:1b,SwordType:{SeastoneKatana:1b}}}}}] run function sea:weapon/system/sword/seastone_katana/main
 execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{Sea:{Sword:1b,SwordType:{SeastoneKatana:1b}}}}]}] run function sea:weapon/system/sword/seastone_katana/hmain
+# Wado Ichimunji
+execute if entity @s[nbt={SelectedItem:{tag:{Sea:{Sword:1b,SwordType:{WadoIchimunji:1b}}}}}] run function sea:weapon/system/sword/wado_ichimunji/main
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{Sea:{Sword:1b,SwordType:{WadoIchimunji:1b}}}}]}] run function sea:weapon/system/sword/wado_ichimunji/hmain
 
 

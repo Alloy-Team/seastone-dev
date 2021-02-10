@@ -13,6 +13,12 @@ execute as @a[tag=sea.fruit.user,tag=sea.fruit.para.gum.user] at @s run function
 # Spring Spring
 execute as @e[tag=sea.fruit.para.spring.launcher] at @s run function sea:fruit/system/para/springspring/launch/main
 execute as @a[tag=sea.fruit.user,tag=sea.fruit.para.spring.user] at @s run function sea:fruit/system/para/springspring/main
+# Dice Dice
+execute as @a[tag=sea.fruit.user,tag=sea.fruit.para.dice.user] at @s run function sea:fruit/system/para/dicedice/main
+# Slip Slip
+execute as @a[tag=sea.fruit.user,tag=sea.fruit.para.slip.user] at @s run function sea:fruit/system/para/slipslip/main
+
+
 
 # > Logia
 # Rumble Rumble

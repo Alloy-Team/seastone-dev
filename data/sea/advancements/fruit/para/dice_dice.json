@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:apple",
+          "nbt": "{Sea:{DevilFruit:1b,Fruit:{Para:{DiceDice:1b}}}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sea:fruit/eat/para/dice_dice"
+  }
+}
