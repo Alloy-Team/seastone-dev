@@ -30,3 +30,5 @@ scoreboard objectives add sea.pf.sl.cd dummy
 # Rumble Rumble Scores
 scoreboard objectives add sea.lf.r.smt dummy
 scoreboard objectives add sea.lf.r.smc dummy
+# Flame Flame Scores
+scoreboard objectives add sea.lf.f.cd dummy
