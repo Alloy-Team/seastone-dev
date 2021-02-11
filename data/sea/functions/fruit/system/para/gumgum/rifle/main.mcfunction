@@ -32,7 +32,7 @@ execute if entity @s[tag=sea.fistrev] if entity @a[tag=sea.fistowner,dx=0] run k
 execute if entity @s[tag=!sea.fistrev] unless block ~ ~ ~ #alloycore:voids run tag @s add sea.fistrev
 execute unless block ~ ~ ~ #alloycore:voids unless block ~ ~ ~ #alloycore:unbreakable run setblock ~ ~ ~ air destroy
 
-execute if entity @s[tag=!sea.fistrev] if entity @e[type=!#alloycore:nonliving,dx=0,tag=!sea.fistowner] as @e[type=!#alloycore:nonliving,dx=0] at @s run function sea:fruit/system/para/gumgum/rifle/dmg
+execute if entity @s[tag=!sea.fistrev] if entity @e[type=!#alloycore:nonliving,distance=..2,tag=!sea.fistowner] as @e[type=!#alloycore:nonliving,distance=..2] at @s run function sea:fruit/system/para/gumgum/rifle/dmg
 
 
 tag @s remove sea.fistowned

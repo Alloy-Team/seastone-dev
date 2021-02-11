@@ -19,6 +19,8 @@ scoreboard objectives add sea.sw.c dummy
 # > Para Fruits
 # Gum Gum Scores
 scoreboard objectives add sea.pf.g.ela dummy
+scoreboard objectives add sea.pf.g.sgt dummy
+scoreboard objectives add sea.pf.g.sgc dummy
 # Spring Spring Scores
 scoreboard objectives add sea.pf.s.rec dummy
 # Dice Dice Scores

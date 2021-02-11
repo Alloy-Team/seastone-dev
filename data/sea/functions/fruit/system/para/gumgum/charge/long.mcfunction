@@ -8,14 +8,14 @@ execute as @e[tag=sea.longentity] at @s facing entity @a[distance=1..,tag=sea.lo
 
 execute if entity @e[tag=sea.longentity,distance=2..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.2] run playsound minecraft:item.crossbow.quick_charge_1 ambient @s ~ ~ ~ 0.5 1.6
 execute if entity @e[tag=sea.longentity,distance=2..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.2] run tag @s add sea.longcharge.2
-execute if entity @e[tag=sea.longentity,distance=5..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.4] run playsound minecraft:item.crossbow.quick_charge_1 ambient @s ~ ~ ~ 0.5 1.7
-execute if entity @e[tag=sea.longentity,distance=5..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.4] run tag @s add sea.longcharge.4
-execute if entity @e[tag=sea.longentity,distance=9..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.6] run playsound minecraft:item.crossbow.quick_charge_1 ambient @s ~ ~ ~ 0.5 1.8
-execute if entity @e[tag=sea.longentity,distance=9..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.6] run tag @s add sea.longcharge.6
-execute if entity @e[tag=sea.longentity,distance=13..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.8] run playsound minecraft:item.crossbow.quick_charge_1 ambient @s ~ ~ ~ 0.5 1.9
-execute if entity @e[tag=sea.longentity,distance=13..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.8] run tag @s add sea.longcharge.8
-execute if entity @e[tag=sea.longentity,distance=18..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.10] run playsound minecraft:item.crossbow.quick_charge_1 ambient @s ~ ~ ~ 0.5 2
-execute if entity @e[tag=sea.longentity,distance=18..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.10] run tag @s add sea.longcharge.10
+execute if entity @e[tag=sea.longentity,distance=3..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.4] run playsound minecraft:item.crossbow.quick_charge_1 ambient @s ~ ~ ~ 0.5 1.7
+execute if entity @e[tag=sea.longentity,distance=3..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.4] run tag @s add sea.longcharge.4
+execute if entity @e[tag=sea.longentity,distance=5..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.6] run playsound minecraft:item.crossbow.quick_charge_1 ambient @s ~ ~ ~ 0.5 1.8
+execute if entity @e[tag=sea.longentity,distance=5..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.6] run tag @s add sea.longcharge.6
+execute if entity @e[tag=sea.longentity,distance=7..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.8] run playsound minecraft:item.crossbow.quick_charge_1 ambient @s ~ ~ ~ 0.5 1.9
+execute if entity @e[tag=sea.longentity,distance=7..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.8] run tag @s add sea.longcharge.8
+execute if entity @e[tag=sea.longentity,distance=10..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.10] run playsound minecraft:item.crossbow.quick_charge_1 ambient @s ~ ~ ~ 0.5 2
+execute if entity @e[tag=sea.longentity,distance=10..] if entity @s[tag=sea.longconfirm,tag=!sea.longcharge.10] run tag @s add sea.longcharge.10
 
 execute as @s at @s if entity @s[tag=sea.longcharge.6,tag=!sea.rocketrun] if score @s ac_jumped matches 1.. run playsound minecraft:item.crossbow.quick_charge_1 ambient @s ~ ~ ~ 2 0.75
 execute as @s at @s if entity @s[tag=sea.longcharge.6,tag=!sea.rocketrun] if score @s ac_jumped matches 1.. run tag @s add sea.rocketrun
