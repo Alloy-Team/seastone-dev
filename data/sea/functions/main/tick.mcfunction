@@ -5,11 +5,6 @@
 execute as @a[tag=sea.fruit.user] at @s run function sea:fruit/system/base/main
 
 # > Paramecia
-# Gum Gum
-execute as @e[tag=sea.fruit.para.gum.launcher] at @s run function sea:fruit/system/para/gumgum/rocket/main
-execute as @e[tag=sea.fruit.para.gum.fist] at @s run function sea:fruit/system/para/gumgum/pistol/main
-execute as @e[tag=sea.fruit.para.gum.rfist] at @s run function sea:fruit/system/para/gumgum/rifle/main
-execute as @a[tag=sea.fruit.user,tag=sea.fruit.para.gum.user] at @s run function sea:fruit/system/para/gumgum/main
 # Spring Spring
 execute as @e[tag=sea.fruit.para.spring.launcher] at @s run function sea:fruit/system/para/springspring/launch/main
 execute as @a[tag=sea.fruit.user,tag=sea.fruit.para.spring.user] at @s run function sea:fruit/system/para/springspring/main
@@ -35,3 +30,11 @@ execute as @a[tag=sea.fruit.user,tag=sea.fruit.logia.flame.user] at @s run funct
 # >> Mainhand Sword
 execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{Sea:{Sword:1b}}}}] at @s run function sea:weapon/system/sword/base/main
 execute as @a[nbt=!{Inventory:[{Slot:103b}]},nbt={Inventory:[{Slot:9b,tag:{Sea:{Sword:1b}}}]}] at @s run function sea:weapon/system/sword/base/head/run
+
+
+
+# >>> Miscellanious
+
+# >> Treasure Chests
+# > Common Open
+execute as @a[nbt={SelectedItem:{tag:{Sea:{TreasureChest:1b,Common:1b}}}},scores={ac_click_cs=1..}] at @s run function sea:misc/treasure/common/open

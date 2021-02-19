@@ -5,5 +5,8 @@ execute if entity @s[tag=sea.fruit.user,gamemode=!creative] run kill @s
 
 tag @s add sea.fruit.para.spring.user
 tag @s add sea.fruit.user
+execute if score $sea.pf.spring sea.fruit.av matches 1 run tag @s remove sea.fruit.user
+execute if score $sea.pf.spring sea.fruit.av matches 1 run tag @s remove sea.fruit.para.spring.user
+scoreboard players set $sea.pf.spring sea.fruit.av 1
 
 advancement revoke @s only sea:fruit/para/spring_spring

@@ -1,0 +1,1 @@
+give @s minecraft:carrot_on_a_stick{CustomModelData:110303,Sea:{TreasureChest:1b,Common:1b},display:{Name:'{"text":"Treasure Chest","italic":"false","color":"aqua"}'}}
