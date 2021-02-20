@@ -20,5 +20,5 @@ execute if entity @s[tag=!sea.fruit.logia.plume.lform,nbt=!{SelectedItem:{}},pre
 execute if entity @s[tag=sea.fruit.logia.plume.form] run function sea:fruit/system/logia/plumeplume/form/main
 
 # Leg Form
-execute if entity @s[nbt=!{SelectedItem:{}},predicate=alloycore:player/sprint,predicate=alloycore:player/sneak,tag=!ac_sneaked,tag=!sea.fruit.logia.plume.lform] run function sea:fruit/system/logia/plumeplume/lform/enter
+execute if entity @s[tag=!sea.fruit.logia.plume.form,nbt=!{SelectedItem:{}},predicate=alloycore:player/sprint,predicate=alloycore:player/sneak,tag=!ac_sneaked,tag=!sea.fruit.logia.plume.lform] run function sea:fruit/system/logia/plumeplume/lform/enter
 execute if entity @s[tag=sea.fruit.logia.plume.lform] run function sea:fruit/system/logia/plumeplume/lform/main
