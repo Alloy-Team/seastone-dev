@@ -1,0 +1,1 @@
+give @s apple{Sea:{DevilFruit:1b,Fruit:{Logia:{MagMag:1b}}},CustomModelData:110307,display:{Name:'{"text":"Devil Fruit","color":"light_purple","italic":"false"}'}}
