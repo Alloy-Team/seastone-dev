@@ -1,12 +1,9 @@
 scoreboard players remove @s[scores={sea.lf.f.cd=1..}] sea.lf.f.cd 1
 scoreboard players add @s sea.lf.f.cd 0
 
-execute if block ~ ~ ~ fire run effect give @s strength 1 0 true
-
-execute unless block ~ ~ ~ lava run effect give @s fire_resistance 1 0 true
 
 # Nonhaki Immunity
-execute as @e[distance=0.1..5] at @s positioned ~ ~1 ~ positioned ^ ^ ^0.2 run function sea:fruit/system/logia/plumeplume/faced
+execute as @e[distance=0.1..5] at @s unless predicate sea:player/seastone positioned ~ ~1 ~ positioned ^ ^ ^0.2 run function sea:fruit/system/logia/plumeplume/faced
 
 # Arrow Phase
 execute if score @s sea.bow_used matches 1.. run scoreboard players operation @e[distance=..2,sort=nearest,limit=1,type=arrow] sea.oid = @s ac_entity_id
