@@ -23,6 +23,8 @@ execute as @e[tag=sea.ultrasmite] at @s run function sea:fruit/system/logia/rumb
 execute as @a[tag=sea.fruit.user,tag=sea.fruit.logia.flame.user] at @s run function sea:fruit/system/logia/flameflame/main
 # Plume Plume
 execute as @a[tag=sea.fruit.user,tag=sea.fruit.logia.plume.user] at @s run function sea:fruit/system/logia/plumeplume/main
+# Sand Sand
+execute as @a[tag=sea.fruit.user,tag=sea.fruit.logia.sand.user] at @s run function sea:fruit/system/logia/sandsand/main
 
 
 

@@ -1,5 +1,3 @@
-scoreboard players remove @s[scores={sea.lf.f.cd=1..}] sea.lf.f.cd 1
-scoreboard players add @s sea.lf.f.cd 0
 
 
 # Nonhaki Immunity
