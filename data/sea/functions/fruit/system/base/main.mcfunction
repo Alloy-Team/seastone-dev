@@ -16,20 +16,20 @@ tag @e[type=armor_stand] remove sea.fruit.sinker.target
 
 # > Paramecia
 # Spring Spring
-execute as @s[tag=sea.fruit.para.spring.user] at @s run function sea:fruit/system/para/springspring/main
+execute as @s[tag=sea.fruit.para.spring.user] run function sea:fruit/system/para/springspring/main
 # Dice Dice
-execute as @s[tag=sea.fruit.para.dice.user] at @s run function sea:fruit/system/para/dicedice/main
+execute as @s[tag=sea.fruit.para.dice.user] run function sea:fruit/system/para/dicedice/main
 # Slip Slip
-execute as @s[tag=sea.fruit.para.slip.user] at @s run function sea:fruit/system/para/slipslip/main
+execute as @s[tag=sea.fruit.para.slip.user] run function sea:fruit/system/para/slipslip/main
 
 
 
 # > Logia
 # Rumble Rumble
-execute as @s[tag=sea.fruit.logia.rumble.user] at @s run function sea:fruit/system/logia/rumblerumble/main
+execute as @s[tag=sea.fruit.logia.rumble.user] run function sea:fruit/system/logia/rumblerumble/main
 # Flame Flame
-execute as @s[tag=sea.fruit.logia.flame.user] at @s run function sea:fruit/system/logia/flameflame/main
+execute as @s[tag=sea.fruit.logia.flame.user] run function sea:fruit/system/logia/flameflame/main
 # Plume Plume
-execute as @s[tag=sea.fruit.logia.plume.user] at @s run function sea:fruit/system/logia/plumeplume/main
+execute as @s[tag=sea.fruit.logia.plume.user] run function sea:fruit/system/logia/plumeplume/main
 # Sand Sand
-execute as @s[tag=sea.fruit.logia.sand.user] at @s run function sea:fruit/system/logia/sandsand/main
+execute as @s[tag=sea.fruit.logia.sand.user] run function sea:fruit/system/logia/sandsand/main

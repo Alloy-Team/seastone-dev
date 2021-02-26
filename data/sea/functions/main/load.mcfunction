@@ -21,7 +21,8 @@ scoreboard objectives add sea.pf.g.ela dummy
 scoreboard objectives add sea.pf.g.sgt dummy
 scoreboard objectives add sea.pf.g.sgc dummy
 # Spring Spring Scores
-scoreboard objectives add sea.pf.s.rec dummy
+scoreboard objectives add sea.pf.s.tg dummy
+scoreboard objectives add sea.pf.s.tm dummy
 # Dice Dice Scores
 scoreboard objectives add sea.pf.d.cd dummy
 # Slip Slip Scores
