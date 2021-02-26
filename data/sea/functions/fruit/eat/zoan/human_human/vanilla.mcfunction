@@ -9,4 +9,4 @@ execute if score $sea.zf.human.vanilla sea.fruit.av matches 1 run tag @s[gamemod
 execute if score $sea.zf.human.vanilla sea.fruit.av matches 1 run tag @s[gamemode=!creative] remove sea.fruit.zoan.human.vanilla
 scoreboard players set $sea.zf.human.vanilla sea.fruit.av 1
 
-advancement revoke @s only sea:fruit/zoan/human_human
+advancement revoke @s only sea:fruit/zoan/human_human/vanilla

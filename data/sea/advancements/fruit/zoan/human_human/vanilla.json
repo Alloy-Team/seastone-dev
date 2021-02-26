@@ -5,12 +5,12 @@
       "conditions": {
         "item": {
           "item": "minecraft:apple",
-          "nbt": "{Sea:{DevilFruit:1b,Fruit:{Zoan:{HumanHuman:1b}}}}"
+          "nbt": "{Sea:{DevilFruit:1b,Fruit:{Zoan:{HumanHuman:{Vanilla:1b}}}}}"
         }
       }
     }
   },
   "rewards": {
-    "function": "sea:fruit/eat/zoan/human_human"
+    "function": "sea:fruit/eat/zoan/human_human/vanilla"
   }
 }

@@ -1,4 +1,5 @@
 tag @s remove sea.fruit.user
+scoreboard players set @s sea.zf.tgl 0
 
 # Para Tags
 execute if entity @s[tag=sea.fruit.para.bubble.user] run scoreboard players set $sea.pf.bubble sea.fruit.av 0
@@ -61,26 +62,26 @@ execute if entity @s[tag=sea.fruit.para.wax.user] run scoreboard players set $se
 tag @s remove sea.fruit.para.wax.user
 
 # Zoan Tags
-execute if entity @s[tag=sea.fruit.zoan.bat.vanilla] run scoreboard players set $sea.zf.bat.vanilla sea.fruit.av 0
-tag @s remove sea.fruit.zoan.bat.vanilla
-execute if entity @s[tag=sea.fruit.zoan.bug.bee] run scoreboard players set $sea.zf.bug.bee sea.fruit.av 0
-tag @s remove sea.fruit.zoan.bug.bee
-execute if entity @s[tag=sea.fruit.zoan.bug.endermite] run scoreboard players set $sea.zf.bug.endermite sea.fruit.av 0
-tag @s remove sea.fruit.zoan.bug.endermite
-execute if entity @s[tag=sea.fruit.zoan.dog.fox] run scoreboard players set $sea.zf.dog.fox sea.fruit.av 0
-tag @s remove sea.fruit.zoan.dog.fox
 execute if entity @s[tag=sea.fruit.zoan.human.vanilla] run scoreboard players set $sea.zf.human.vanilla sea.fruit.av 0
 tag @s remove sea.fruit.zoan.human.vanilla
 execute if entity @s[tag=sea.fruit.zoan.human.enderman] run scoreboard players set $sea.zf.human.enderman sea.fruit.av 0
 tag @s remove sea.fruit.zoan.human.enderman
+execute if entity @s[tag=sea.fruit.zoan.bug.endermite] run scoreboard players set $sea.zf.bug.endermite sea.fruit.av 0
+tag @s remove sea.fruit.zoan.bug.endermite
+execute if entity @s[tag=sea.fruit.zoan.bug.bee] run scoreboard players set $sea.zf.bug.bee sea.fruit.av 0
+tag @s remove sea.fruit.zoan.bug.bee
 execute if entity @s[tag=sea.fruit.zoan.ox.cow] run scoreboard players set $sea.zf.ox.cow sea.fruit.av 0
 tag @s remove sea.fruit.zoan.ox.cow
+execute if entity @s[tag=sea.fruit.zoan.ox.mooshroom] run scoreboard players set $sea.zf.ox.mooshroom sea.fruit.av 0
+tag @s remove sea.fruit.zoan.ox.mooshroom
 execute if entity @s[tag=sea.fruit.zoan.pig.creeper] run scoreboard players set $sea.zf.pig.creeper sea.fruit.av 0
 tag @s remove sea.fruit.zoan.pig.creeper
-execute if entity @s[tag=sea.fruit.zoan.salamander.dolphin] run scoreboard players set $sea.zf.salamander.dolphin sea.fruit.av 0
-tag @s remove sea.fruit.zoan.salamander.dolphin
-execute if entity @s[tag=sea.fruit.zoan.salamander.squid] run scoreboard players set $sea.zf.salamander.squid sea.fruit.av 0
-tag @s remove sea.fruit.zoan.salamander.squid
+execute if entity @s[tag=sea.fruit.zoan.bat.vanilla] run scoreboard players set $sea.zf.bat.vanilla sea.fruit.av 0
+tag @s remove sea.fruit.zoan.bat.vanilla
+execute if entity @s[tag=sea.fruit.zoan.bat.phantom] run scoreboard players set $sea.zf.bat.phantom sea.fruit.av 0
+tag @s remove sea.fruit.zoan.bat.phantom
+execute if entity @s[tag=sea.fruit.zoan.spider.spider] run scoreboard players set $sea.zf.spider.spider sea.fruit.av 0
+tag @s remove sea.fruit.zoan.spider.spider
 
 # Logia
 execute if entity @s[tag=sea.fruit.logia.rumble.user] run scoreboard players set $sea.lf.rumble sea.fruit.av 0

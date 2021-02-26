@@ -1,0 +1,1 @@
+give @s apple{Sea:{DevilFruit:1b,Fruit:{Zoan:{HumanHuman:{Enderman:1b}}}},CustomModelData:110202,display:{Name:'{"text":"Devil Fruit","color":"aqua","italic":"false"}'}}

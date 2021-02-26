@@ -28,6 +28,10 @@ scoreboard objectives add sea.pf.d.cd dummy
 # Slip Slip Scores
 scoreboard objectives add sea.pf.sl.cd dummy
 
+# > Zoan Fruits
+# Base Hybrid Toggle
+scoreboard objectives add sea.zf.tgl dummy
+
 # > Logia Fruits
 # Rumble Rumble Scores
 scoreboard objectives add sea.lf.r.smt dummy
@@ -86,13 +90,13 @@ scoreboard players add $sea.lf.sand sea.fruit.av 0
 scoreboard players add $sea.lf.snow sea.fruit.av 0
 scoreboard players add $sea.lf.swamp sea.fruit.av 0
 # Zoan
-scoreboard players add $sea.zf.bat.vanilla sea.fruit.av 0
-scoreboard players add $sea.zf.bug.bee sea.fruit.av 0
-scoreboard players add $sea.zf.bug.endermite sea.fruit.av 0
-scoreboard players add $sea.zf.dog.fox sea.fruit.av 0
 scoreboard players add $sea.zf.human.vanilla sea.fruit.av 0
 scoreboard players add $sea.zf.human.enderman sea.fruit.av 0
+scoreboard players add $sea.zf.bug.endermite sea.fruit.av 0
+scoreboard players add $sea.zf.bug.bee sea.fruit.av 0
 scoreboard players add $sea.zf.ox.cow sea.fruit.av 0
+scoreboard players add $sea.zf.ox.mooshroom sea.fruit.av 0
 scoreboard players add $sea.zf.pig.creeper sea.fruit.av 0
-scoreboard players add $sea.zf.salamander.dolphin sea.fruit.av 0
-scoreboard players add $sea.zf.salamander.squid sea.fruit.av 0
+scoreboard players add $sea.zf.bat.vanilla sea.fruit.av 0
+scoreboard players add $sea.zf.bat.phantom sea.fruit.av 0
+scoreboard players add $sea.zf.spider.spider sea.fruit.av 0
