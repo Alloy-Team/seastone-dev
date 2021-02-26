@@ -32,6 +32,9 @@ scoreboard objectives add sea.pf.sl.cd dummy
 # Base Hybrid Toggle
 scoreboard objectives add sea.zf.tgl dummy
 
+# Human Human
+scoreboard objectives add sea.zf.h.cd dummy
+
 # > Logia Fruits
 # Rumble Rumble Scores
 scoreboard objectives add sea.lf.r.smt dummy

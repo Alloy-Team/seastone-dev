@@ -1,4 +1,4 @@
-# >> Noswim
+# >>> Noswim
 execute at @e[type=armor_stand,tag=sea.fruit.sinker] if score @e[type=armor_stand,tag=sea.fruit.sinker,sort=nearest,limit=1] sea.sink_id = @s ac_entity_id run tag @e[type=armor_stand,tag=sea.fruit.sinker,sort=nearest,limit=1] add sea.fruit.sinker.target
 
 execute unless block ~ ~ ~ #sea:water run kill @e[tag=sea.fruit.sinker.target]
@@ -12,9 +12,9 @@ execute if entity @e[tag=sea.fruit.sinker.target,distance=0.1..] at @e[tag=sea.f
 
 tag @e[type=armor_stand] remove sea.fruit.sinker.target
 
-# >> Fruit Mains
+# >>> Fruit Mains
 
-# > Paramecia
+# >> Paramecia
 # Spring Spring
 execute as @s[tag=sea.fruit.para.spring.user] run function sea:fruit/system/para/springspring/main
 # Dice Dice
@@ -22,9 +22,12 @@ execute as @s[tag=sea.fruit.para.dice.user] run function sea:fruit/system/para/d
 # Slip Slip
 execute as @s[tag=sea.fruit.para.slip.user] run function sea:fruit/system/para/slipslip/main
 
+# >> Zoan
+# > Human Human
+# Enderman
+execute as @s[tag=sea.fruit.zoan.human.enderman] run function sea:fruit/system/zoan/human/ender/main
 
-
-# > Logia
+# >> Logia
 # Rumble Rumble
 execute as @s[tag=sea.fruit.logia.rumble.user] run function sea:fruit/system/logia/rumblerumble/main
 # Flame Flame
