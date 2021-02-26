@@ -33,3 +33,5 @@ execute as @s[tag=sea.fruit.logia.flame.user] run function sea:fruit/system/logi
 execute as @s[tag=sea.fruit.logia.plume.user] run function sea:fruit/system/logia/plumeplume/main
 # Sand Sand
 execute as @s[tag=sea.fruit.logia.sand.user] run function sea:fruit/system/logia/sandsand/main
+# Ice Ice
+execute as @s[tag=sea.fruit.logia.ice.user] run function sea:fruit/system/logia/ice/main

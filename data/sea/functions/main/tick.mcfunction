@@ -1,5 +1,5 @@
 # >>> Player Tick
-execute as @a at @s run function sea:main/player
+execute as @a[sort=arbitrary] at @s run function sea:main/player
 
 # >>> Entity Tick
-execute as @e at @s run function sea:main/entity
+execute as @e[sort=arbitrary,type=!player] at @s run function sea:main/entity
